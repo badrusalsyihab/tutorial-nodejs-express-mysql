@@ -1,12 +1,12 @@
 'use stirct';
 
-exports.msg = function (values, rest) {
+exports.msg = function (values, res) {
     var data = {
         'status': 200,
         'values': values
     };
 
-    rest.json(value);
-    rest.end();
+    res.json(data);
+    res.end();
 
 }
