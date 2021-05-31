@@ -55,6 +55,7 @@ exports.addData = function (req, res) {
 //updateData
 exports.updateData = function (req, res) {
     var name = req.body.name;
+    var id = req.body.id;
     connection.query('UPDATE users SET name=? WHERE id=?', [name, id],
         function (error, rows, fields) {
             if (error) {
