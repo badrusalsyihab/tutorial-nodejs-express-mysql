@@ -5,7 +5,7 @@ const conn = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: '',
-    database: 'apiNodeJsgit',
+    database: 'node_api_js',
 });
 
 conn.connect((err) => {

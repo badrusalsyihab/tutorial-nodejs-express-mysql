@@ -1,5 +1,5 @@
-const bodyParser = require('body-parser');
 const express = require('express');
+const bodyParser = require('body-parser');
 const app = express();
 
 
@@ -11,7 +11,8 @@ app.use(bodyParser.json());
 var routes = require('./routes');
 routes(app);
 
+
 //running server port 3000
-app.listen(3000, () => {
-    console.log(`Server started on port`);
+app.listen(3001, () => {
+    console.log(`Server started on port test`);
 });

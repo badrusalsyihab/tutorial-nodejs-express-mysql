@@ -9,4 +9,5 @@ exports.msg = function (values, res) {
     res.json(data);
     res.end();
 
-}
+};
+
