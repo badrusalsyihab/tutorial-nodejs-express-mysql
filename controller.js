@@ -4,8 +4,8 @@ var response = require('./rest');
 var connection = require('./connection');
 
 exports.index = function (req, res) {
-    console.log('run contrller');
-  //  response.msg("Aplikasi REST API ku berjalan!", res)
+   // console.log('run contrller');
+    response.msg("Aplikasi REST API ku berjalan!", res)
 };
 
 
@@ -17,8 +17,7 @@ exports.getData = function (req, res) {
         if (error) {
             console.log(error);
         } else {
-            console.log('run contrller');
-          //  response.msg(rows, res)
+            response.msg(rows, res)
         }
     });
 };
@@ -32,8 +31,7 @@ exports.findData = function (req, res) {
             if (error) {
                 console.log(error);
             } else {
-               // response.msg(rows, res);
-               console.log('run contrller');
+                response.msg(rows, res);
             }
         });
 };
@@ -48,8 +46,7 @@ exports.addData = function (req, res) {
             if (error) {
                 console.log(error);
             } else {
-                //response.msg("Store Data Success!", res)
-                console.log('run contrller');
+                response.msg("Store Data Success!", res)
             }
         });
 };
@@ -63,8 +60,7 @@ exports.updateData = function (req, res) {
             if (error) {
                 console.log(error);
             } else {
-                //response.msg("Update Data Success", res)
-                console.log('run contrller');
+                response.msg("Update Data Success", res)
             }
         });
 }
@@ -78,8 +74,7 @@ exports.removeData = function (req, res) {
             if (error) {
                 console.log(error);
             } else {
-               // response.msg("remove Data Success", res)
-               console.log('run contrller');
+               response.msg("remove Data Success", res)
             }
         });
 }
