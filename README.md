@@ -2,7 +2,7 @@
 # tutorial-nodejs-express-mysql
 make API use nodejs with expressjs mysql
 
-- git clone origin
+- git clone https://github.com/badrusalsyihab/tutorial-nodejs-express-mysql.git
 - npm install
 - create table users
 - config connection in file connecttion.js
