@@ -1,5 +1,12 @@
+
 # tutorial-nodejs-express-mysql
 make API use nodejs with expressjs mysql
+
+- git clone origin
+- npm install
+- create table users
+- config connection in file connecttion.js
+- run node server.js
 
 # https://nodejs.org/en/
 - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
