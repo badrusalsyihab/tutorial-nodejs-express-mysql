@@ -4,7 +4,7 @@ make API use nodejs with expressjs mysql
 
 - git clone https://github.com/badrusalsyihab/tutorial-nodejs-express-mysql.git
 - npm install
-- create table users and create to field (id, name)
+- create table users and create field (id, name)
 - config connection in file connecttion.js
 - run node server.js
 
